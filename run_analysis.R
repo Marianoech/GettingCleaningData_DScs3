@@ -11,7 +11,7 @@ if (!file.exists(f)){
   unzip(f)
 }
 
-# read and convert data
+# read and assign data to variables
 features <- read.table("UCI HAR Dataset/features.txt", col.names = c("n","functions"))
 activities <- read.table("UCI HAR Dataset/activity_labels.txt", col.names = c("code", "activity"))
 subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt", col.names = "subject")
