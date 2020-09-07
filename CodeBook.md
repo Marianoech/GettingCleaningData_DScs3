@@ -19,12 +19,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 "features", "activities", "subject_test", "x_test", "y_test", "subject_train", "x_train", "y_train"
 
 - Merges the training and the test sets to create one data set.
-3 variables are created: "train_data", "test_data", "merge-data"
+3 variables are created: "train_data" is the union of the train data set, "test_data" is the union of the test data set, "merge_data" is the union of the previous variables.
 
 - Extracts only the measurements on the mean and standard deviation for each measurement.
-1 variable is created: "meanstd_data"
+1 variable is created: "meanstd_data" with the subject, code, mean and the standard desviation.
 
-- Uses descriptive activity names to name the activities in the data set
+- Uses descriptive activity names to name the activities in the data set.
 
 - Appropriately labels the data set with descriptive variable names.
 
